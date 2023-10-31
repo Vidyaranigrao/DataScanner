@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     private let dataScannerViewController = DataScannerViewController(recognizedDataTypes: [.text(), .barcode(symbologies: [.qr])],
                                                                       qualityLevel: .balanced,
                                                                       recognizesMultipleItems: false,
-                                                                      isHighFrameRateTrackingEnabled: true,
+                                                                      isHighFrameRateTrackingEnabled: false,
                                                                       isPinchToZoomEnabled: true,
                                                                       isGuidanceEnabled: true,
                                                                       isHighlightingEnabled: true)
